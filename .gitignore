@@ -1,0 +1,44 @@
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.pem
+*.key
+.local/
+.codex/
+.agents/
+
+# Runtime and generated files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+node_modules/
+dist/
+build/
+*.log
+*.sqlite
+*.sqlite3
+/data/
+/volumes/
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Personal teaching records and local environment investigation
+/NOTES.md
+/MISSION.md
+/RESOURCES.md
+/learning-records/
+/lessons/
+/reference/
+/assets/
+docs/local-readiness.md
+docs/design-session.md
